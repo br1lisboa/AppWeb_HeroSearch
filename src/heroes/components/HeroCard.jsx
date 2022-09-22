@@ -8,7 +8,7 @@ const CharactersByHero = ({ alter_ego, characters }) => {
 
 export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance, characters }) => {
 
-    const heroImgUrl = `/assets/images/${id}.jpg`
+    const heroImgUrl = `../src/assets/images/${id}.jpg`
 
     // const charactersByHero = <p>{characters}</p>
 

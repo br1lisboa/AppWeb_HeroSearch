@@ -18,7 +18,7 @@ export const HeroPage = () => {
     return <Navigate to='/marvel' />
   }
 
-  const imgUrl = `/assets/images/${id}.jpg`
+  const imgUrl = `../src/assets/images/${id}.jpg`
 
 
   return (
