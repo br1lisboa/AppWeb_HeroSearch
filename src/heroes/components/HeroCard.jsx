@@ -6,12 +6,9 @@ const CharactersByHero = ({ alter_ego, characters }) => {
     return <p>{characters}</p>
 }
 
-
-
-
 export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance, characters }) => {
 
-    const heroImgUrl = `/assets/${id}.jpg`
+    const heroImgUrl = `/assets/images/${id}.jpg`
 
     // const charactersByHero = <p>{characters}</p>
 
